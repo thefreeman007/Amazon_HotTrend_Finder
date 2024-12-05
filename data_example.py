@@ -81,7 +81,7 @@ products = [
         'g': 2405,
         'categoryTree': None,
         'data': {
-            'SALES_time': pd.to_datetime(['2011-01-01']),
+            'SALES_time': (['2011-01-01']),
             'SALES': [-1],
             'df_SALES': [{'value': -1}]
         }
