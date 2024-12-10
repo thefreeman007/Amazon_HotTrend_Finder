@@ -90,7 +90,9 @@ Using older sample data from 2020–2021, the analysis highlighted potential bes
      ranking_order_list = [False, False]  # False = 降序, True = 升序
      ```
      设置特征值排名方式，数值越高排名越靠前。
-   - 程序运行后，`average_sales_rank` 列为指定时期中销售额最高的商品。`feature_list` 中所有特征相加，生成综合权重 `weight`，评估商品优劣。
+   - 程序运行后，
+![images](images/pic.png)
+    `average_sales_rank` 列为指定时期中销售额最高的商品。`feature_list` 中所有特征相加，生成综合权重 `weight`，评估商品优劣。
 
 3. **步骤2**：选择高权重商品，如 **"Shower Curtain Sets"** 类商品。该类商品显示出高增长且销售额大，表明有机会瓜分市场份额。
 
